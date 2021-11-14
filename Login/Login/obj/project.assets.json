@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rabia\\source\\repos\\Login\\Login\\Login.csproj",
+      "projectUniqueName": "C:\\Users\\rabia\\OneDrive\\Documents\\GitHub\\Login-Project-Ark\\Login\\Login\\Login.csproj",
       "projectName": "Login",
-      "projectPath": "C:\\Users\\rabia\\source\\repos\\Login\\Login\\Login.csproj",
+      "projectPath": "C:\\Users\\rabia\\OneDrive\\Documents\\GitHub\\Login-Project-Ark\\Login\\Login\\Login.csproj",
       "packagesPath": "C:\\Users\\rabia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rabia\\source\\repos\\Login\\Login\\obj\\",
+      "outputPath": "C:\\Users\\rabia\\OneDrive\\Documents\\GitHub\\Login-Project-Ark\\Login\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rabia\\AppData\\Roaming\\NuGet\\NuGet.Config",

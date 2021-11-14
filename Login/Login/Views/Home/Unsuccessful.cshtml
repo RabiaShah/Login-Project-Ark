@@ -11,16 +11,17 @@
 <body>
     <!--start-login-form-->
     <div class="login-form">
-        <h1>Login</h1>
-        <form >
+        <h1>Sign in to SHAPE</h1>
+        <form>
             @model Login.Models.ErrorViewModel
             <input type="text" placeholder="Email Address" name="Email" required /><br />
-            <input type="Password" placeholder="Password" name="Password" required />
+            <input type="Password" placeholder="Password" name="Password" required /><br />
+            <input type="checkbox" />  Remember me
             <div class="submit">
-                <input type="submit" value="Login" class="btn-primary">
+                <input type="submit" value="Sign in" class="btn-primary">
             </div>
         </form>
-        <h2 style="color: red;">False</h2>
+        <h2 style="color: red; text-align: center;">False</h2>
     </div>
 
 </body>
