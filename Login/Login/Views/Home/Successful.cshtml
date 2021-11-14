@@ -1,0 +1,30 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="../css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</head>
+<body>
+    <!--start-login-form-->
+    <div class="login-form">
+        <h1>Login</h1>
+        <form>
+            @model Login.Models.ErrorViewModel
+            <input type="text" placeholder="Email Address" name="Email" required /><br />
+            <input type="Password" placeholder="Password" name="Password" required />
+            <div class="submit">
+                <input type="submit" value="Login" class="btn-primary">
+            </div>
+            <h2 style="color: green;">True</h2>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+

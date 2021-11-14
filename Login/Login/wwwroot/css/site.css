@@ -1,0 +1,288 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+body {
+  margin:0px;
+  padding: 0px;
+  height:100vh;
+  overflow: hidden;
+}
+/*--start-login-form--*/
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400%;
+    background: white;
+    border-radius: 10px;
+}
+
+    .login-form h1 {
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+        margin: 13% auto 4% auto;
+        padding-top: 2.5em;
+    }
+
+    .login-form form input[type="text"] {
+        width: 69%;
+        font-size: 0.9em;
+        outline: none;
+        font-weight: 700;
+        color: #fff;
+        padding: 1em 1.7em;
+        margin: 0.8em auto;
+        border: 1px solid #28344B;
+        background: #28344B;
+        transition: border-color 0.3s;
+        -o-transition: border-color 0.3s;
+        -moz-transition: border-color 0.3s;
+        -webkit-transition: border-color 0.3s;
+        -webkit-appearance: none;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        box-shadow: inset 2px 2px 10px rgba(26, 21, 21, 0.54);
+        -moz-box-shadow: inset 2px 2px 10px rgba(26, 21, 21, 0.54);
+        -webkit-box-shadow: inset 2px 2px 10px rgba(26, 21, 21, 0.54);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .login-form form input[type="password"] {
+        width: 69%;
+        font-size: 0.9em;
+        outline: none;
+        font-weight: 700;
+        color: #fff;
+        padding: 1em 1.7em;
+        margin: 0.8em auto;
+        background: #28344B;
+        border: 1px solid #28344B;
+        transition: border-color 0.3s;
+        -o-transition: border-color 0.3s;
+        -moz-transition: border-color 0.3s;
+        -webkit-transition: border-color 0.3s;
+        -webkit-appearance: none;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        box-shadow: inset 2px 2px 10px rgba(26, 21, 21, 0.54);
+        -moz-box-shadow: inset 2px 2px 10px rgba(26, 21, 21, 0.54);
+        -webkit-box-shadow: inset 2px 2px 10px rgba(26, 21, 21, 0.54);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .login-form input[type="Password"]:hover {
+        box-shadow: 0px 0px 8px 1px #70A2E7;
+    }
+
+    .login-form input[type="text"]:hover {
+        box-shadow: 0px 0px 8px 1px #70A2E7;
+    }
+
+form {
+    margin-left: 10%;
+}
+
+.submit {
+    margin: 0.8em auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.login-form form input[type="submit"] {
+    width: 84%;
+    font-size: 19px;
+    display: inline-block;
+    font-weight: 700;
+    color: #28467B;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+    cursor: pointer;
+    outline: none;
+    padding: 0.8em 1em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: #3C67B5;
+    border-top: #fff;
+    -webkit-appearance: none;
+    background: #9DBEF9;
+    box-shadow: 0px 0px 8px 1px #000;
+    background: rgb(204,223,255);
+    background: -moz-linear-gradient(top, rgb(204,223,255) 0%, rgb(158,192,249) 54%, rgb(154,188,247) 77%, rgb(158,191,247) 90%, rgb(165,196,247) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(204,223,255)), color-stop(54%,rgb(158,192,249)), color-stop(77%,rgb(154,188,247)), color-stop(90%,rgb(158,191,247)), color-stop(100%,rgb(165,196,247)));
+    background: -webkit-linear-gradient(top, rgb(204,223,255) 0%,rgb(158,192,249) 54%,rgb(154,188,247) 77%,rgb(158,191,247) 90%,rgb(165,196,247) 100%);
+    background: -o-linear-gradient(top, rgb(204,223,255) 0%,rgb(158,192,249) 54%,rgb(154,188,247) 77%,rgb(158,191,247) 90%,rgb(165,196,247) 100%);
+    background: linear-gradient(to bottom, rgb(204,223,255) 0%,rgb(158,192,249) 54%,rgb(154,188,247) 77%,rgb(158,191,247) 90%,rgb(165,196,247) 100%);
+}
+
+.forget-pass {
+    text-align: center;
+    margin-top: 10px;
+    color: #A7B1CA;
+}
+
+    .forget-pass a {
+        font-weight: 700;
+        font-size: 0.890em;
+        color: #C9D1E5;
+        padding: 0px 5em;
+        text-shadow: 0 2px 0 rgba(24, 36, 85, 0.68);
+    }
+/*--//End-login-form--*/
+/*--//end-wrap-**/
+/*----start-copy-right-----*/
+.copy-right {
+    text-align: center;
+    margin-top: 0.250em;
+}
+
+    .copy-right p {
+        color: #FFF;
+        font-size: 0.9em;
+    }
+
+        .copy-right p a {
+            color: #3460A8;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+            .copy-right p a:hover {
+                color: #fff;
+            }
+/*----//end-copy-right-----*/
+/*----start-responsive design-----*/
+@media only screen and (max-width:1440px) and (min-width:1366px) {
+    .login-form {
+        width: 23%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 2em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:1366px) and (min-width:1280px) {
+    .login-form {
+        width: 25%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 3em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1024px) {
+    .login-form {
+        width: 26%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 4em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    .login-form {
+        width: 34%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 5em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:640px) {
+    .login-form {
+        width: 45%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 5em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:640px) and (min-width:480px) {
+    .login-form {
+        width: 54%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 6em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:480px) and (min-width:320px) {
+    .login-form {
+        width: 70%;
+        margin: 12% auto 4% auto;
+        padding-bottom: 6em;
+    }
+
+    .forget-pass a {
+        padding: 0px 5em;
+    }
+}
+
+@media only screen and (max-width:320px) and (min-width:240px) {
+    .login-form {
+        width: 90%;
+        margin: 16% auto 4% auto;
+        padding-bottom: 3em;
+    }
+
+        .login-form h1 {
+            padding-top: 1.4em;
+            font-size: 1.3em;
+        }
+
+        .login-form form input[type="submit"] {
+            width: 88%;
+            padding: 0.6em 1em;
+        }
+
+    .forget-pass a {
+        padding: 0px 4em;
+    }
+}
+/*----//end-responsive design-----*/
